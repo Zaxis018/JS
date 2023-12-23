@@ -1,3 +1,3 @@
 JS programs to understand from beginner level. <br>
-indentation level of comments establish hierarchy.<br>
-more indentation means a deeper subtopic
+Indentation level of comments establish hierarchy.<br>
+More indentation means a deeper subtopic
