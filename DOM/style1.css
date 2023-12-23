@@ -1,0 +1,42 @@
+/* #mydiv{
+    background-color:aquamarine;
+    width:200px;
+    height:100px;
+    border:1px solid;
+    position:relative;
+}
+#innerdiv{
+    background-color:lightgreen;
+    width:200px;
+    height:100px;
+    border:1px solid;
+}
+#outerdiv{
+    background-color:lightgreen;
+    width:300px;
+    height:200px;
+} */
+#myimage{
+    width:300px;
+    /* display:None; */
+    /* adding this inline in html is better because stylesheet int ready immediately  */
+}
+/* #mydiv{
+    background-color:rgb(242, 0, 194);
+    width:100px;
+    height:100px;
+    position:relative;
+} */
+
+/* #mycanvas{
+    border:1px solid black;
+    background-color:skyblue;
+} */
+
+ #mydiv{
+    background-color:aquamarine;
+    width:1000px;
+    height:1000px;
+    border:1px solid;
+    position:relative;
+}
