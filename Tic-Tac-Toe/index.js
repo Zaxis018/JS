@@ -8,7 +8,7 @@ const oScore=document.querySelector("#oScore");
 
 restartBtn.addEventListener("click",restartGame);
 
-let mapping = {
+let mapping = { //magic square method
     0: 8 ,
     1: 1,
     2: 6,
