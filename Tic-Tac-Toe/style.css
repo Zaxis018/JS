@@ -1,0 +1,75 @@
+.cell{
+    width:75px;
+    height:75px;
+    border:3px solid;
+    box-shadow: 0 0 0 2px;
+    line-height:75px;
+    font-size:50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cell:hover {
+    background-color: #f5dfdf;
+}
+
+#cellContainer{
+    display:grid;
+    grid-template-columns: repeat(3,auto);
+    margin:auto;
+    width:225px;        /*75*3 =225*/
+    gap: 5px;
+}
+
+#gameContainer{
+    font-family: "permanent Marker",cursive;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.19), 0px 6px 6px rgba(0,0,0,0.23);
+}
+
+#statusText{
+    font-size: 40px;
+    color:blue;
+    margin-top: 20px;
+}
+
+#restartBtn{
+    font-size: 30px;
+    font-family: "permanent Marker",cursive;
+    color:blue;
+    border-radius: 5px;
+    background-color: rgb(6, 180, 105);
+    padding: 5px 5px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#restartBtn:hover {
+    background-color: rgb(6, 200, 105);
+}
+#scoreBoardCcontainer {
+    font-family: "permanent Marker",cursive;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 2px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.19), 0px 6px 6px rgba(0,0,0,0.23);
+    margin-top: 20px;
+}
+
+#scoreBoardCcontainer h1 {
+    font-size: 30px;
+    color:blue;
+    margin-bottom: 20px;
+}
+
+#scoreBoardCcontainer label {
+    font-size: 30px;
+    display: block;
+    margin-bottom: 10px;
+}
