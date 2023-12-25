@@ -1,0 +1,24 @@
+#gameDiv{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border:3px solid;
+    border-radius:25px;
+    text-align: center;
+    background-color: rgb(157, 160, 138);
+    height:300px;
+}
+.choiceBtn{
+    line-height: 30px;
+    width: 150px;;
+    font-family: 'Gill Sans', 'Gill Sans MT', calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+}
+#playerText{
+    color:rgb(8, 243, 8);
+}
+#computerText{
+    color:red;
+}
+#resultText{
+    color:rgb(85, 0, 255);
+}
