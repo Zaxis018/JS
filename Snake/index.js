@@ -190,5 +190,11 @@ function resetGame(){
     score=0;
     xVelocity=unitSize;
     yVelocity=0;
-    snake=initial_snake;
+    snake=[ //initial coordinates of snake body parts
+    {x:unitSize*4 ,y:0},//head of snake snake[0]
+    {x:unitSize*3,y:0},
+    {x:unitSize*2,y:0},
+    {x:unitSize ,y:0},
+    {x:0 ,y:0},
+];
 };
